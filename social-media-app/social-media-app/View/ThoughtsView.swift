@@ -163,7 +163,7 @@ class ThoughtsView: UIView {
             profileImageView.heightAnchor.constraint(equalToConstant: 50),
             profileImageView.widthAnchor.constraint(equalToConstant: 50),
             profilePictureVerticalStackView.widthAnchor.constraint(equalToConstant: 50),
-            profilePictureVerticalStackView.heightAnchor.constraint(equalToConstant: 50)
+            //profilePictureVerticalStackView.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
     
