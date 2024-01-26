@@ -16,6 +16,8 @@
 		4A690B232B507C5B00D4A044 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A690B222B507C5B00D4A044 /* SceneDelegate.swift */; };
 		4A690B2A2B507C5D00D4A044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A690B292B507C5D00D4A044 /* Assets.xcassets */; };
 		4A690B2D2B507C5D00D4A044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A690B2B2B507C5D00D4A044 /* LaunchScreen.storyboard */; };
+		4A7E8F192B6048C40000D83C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E8F182B6048C40000D83C /* LoginView.swift */; };
+		4A7E8F1B2B605B8C0000D83C /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E8F1A2B605B8C0000D83C /* LoginModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		4A690B292B507C5D00D4A044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A690B2C2B507C5D00D4A044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A690B2E2B507C5D00D4A044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7E8F182B6048C40000D83C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4A7E8F1A2B605B8C0000D83C /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 		4A48E53B2B5C660D00479778 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4A7E8F182B6048C40000D83C /* LoginView.swift */,
 				4A48E5392B5C660900479778 /* ViewController.swift */,
 				4A48E53D2B5C66BC00479778 /* MainView.swift */,
 				4A48E53F2B5C66DA00479778 /* ThoughtsView.swift */,
@@ -58,6 +63,7 @@
 			children = (
 				4A48E5412B5C66F500479778 /* ThoughtModel.swift */,
 				4A48E5442B5C83DD00479778 /* DataModel.swift */,
+				4A7E8F1A2B605B8C0000D83C /* LoginModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 			files = (
 				4A48E5452B5C83DD00479778 /* DataModel.swift in Sources */,
 				4A48E53A2B5C660900479778 /* ViewController.swift in Sources */,
+				4A7E8F192B6048C40000D83C /* LoginView.swift in Sources */,
 				4A48E53E2B5C66BC00479778 /* MainView.swift in Sources */,
+				4A7E8F1B2B605B8C0000D83C /* LoginModel.swift in Sources */,
 				4A690B212B507C5B00D4A044 /* AppDelegate.swift in Sources */,
 				4A48E5422B5C66F500479778 /* ThoughtModel.swift in Sources */,
 				4A48E5402B5C66DA00479778 /* ThoughtsView.swift in Sources */,
