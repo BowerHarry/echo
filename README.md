@@ -1,2 +1,2 @@
-# echo - Live your best life. Stay connected.
+# echo - Live your best life. Feel connected.
  
